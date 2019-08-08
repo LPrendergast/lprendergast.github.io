@@ -3,10 +3,12 @@
 }
 
 .circle {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
   height: 500px;
   width: 500px;
-  top: 5%;
-  left: 31%;
-  position: absolute;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
 }
