@@ -1,113 +1,76 @@
-body {
-  margin: 0;
-  text-align: center;
-  font-family: 'Merriweather', serif;
+.top-container {
+  background-color: #110c11;
+  position: relative;
+  height: 100vh;
+  padding-top: 100px;
 }
 
-
-hr{
-  border-style: none;
-  border-top-style: dotted;
-  border-color: lightgrey;
-  border-width: 10px;
-  width: 6%;
+.middle-container {
+  padding-bottom: 40px;
+  background-color: #FFFFF7;
 }
 
-h1 {
-  font-size: 563% ;
-  color: #5edfff;
-  margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+#grad {
+  background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(96, 80, 82, 0.3));
 }
 
-h2 {
-  margin-top: 0;
-  color: #5edfff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
-  line-height: 3;
+.bottom-container {
+  background-color: #2e242c;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-.bottom-h2{
+.bottom-h2 {
   margin: 0 auto 0 auto;
 }
 
-.bottom-h3{
+.bottom-h3 {
   margin: 0 auto 30px auto;
 }
 
-.bottom-p{
+.bottom-p {
   margin: 0 auto 30px auto;
-}
-
-h3 {
-  margin-top: 0;
-  font-family: 'Montserrat', sans-serif;
-  color: #3e64ff;
 }
 
 .img-circle {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
-.lukes-face{
+.lukes-face {
   width: 15%;
   height: 15%;
   border-radius: 50% 50% 50% 50%;
   margin-top: 30px;
 }
 
-.lukes-face-h{
+.lukes-face-h {
   margin: 0 auto 0 auto;
 }
 
-.skill-row{
+.skill-row {
   width: 50%;
   margin: 0 auto 100px auto;
   text-align: left;
   line-height: 2;
 }
 
-.skill1-image{
+.skill1-image {
   width: 20%;
   height: 20%;
   float: left;
   margin-right: 30px;
 }
-.skill2-image{
+
+.skill2-image {
   width: 20%;
   height: 20%;
   float: right;
   margin-left: 30px;
 }
 
-.top-container {
-  background-color: #ecfcff;
-  position: relative;
-  padding-top: 100px;
-}
-
-.middle-container {
-  margin: auto auto 40px auto;
-}
-
-.bottom-container {
-  background-color: #3e64ff;
-
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.pro {
-  text-decoration: underline;
-
-}
-
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 50px;
+  color: white;
 }
 
 .bottom-cloud {
@@ -117,41 +80,47 @@ h3 {
 }
 
 .btn {
-  background: #3498db;
+  background: #605052;
   -webkit-border-radius: 60;
   -moz-border-radius: 60;
   border-radius: 60px;
   font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
+  color: white;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #3cb0fd;
+  background: grey;
   text-decoration: none;
 }
 
-.copywright{
-  color: #ecfcff;
+.copywright {
+  color: grey;
   font-family: 'Montserrat', sans-serif;
-  margin:10;
+  margin: 10;
   font-size: 80%;
 }
-.footer-script{
+
+.footer-script {
   font-size: 10px;
-  color: black;
+  color: grey;
   padding: 0;
   margin: 0;
 }
-a{
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
+
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  margin-bottom: 20px;
   text-decoration: none;
+  color: #FFFFF0;
+  background-color: #FFFFF0;
+  background-color: rgba(100, 100, 100, 0.5);
+  border-radius: 50%;
 }
 
-a:hover{
-  color: #EAF6F6;
+.fa:hover {
+  color: #605052;
 }
