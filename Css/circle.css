@@ -1,0 +1,12 @@
+#grad-circle {
+  background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(100, 100, 100, 0.3));
+}
+
+.circle {
+  height: 500px;
+  width: 500px;
+  top: 5%;
+  left: 31%;
+  position: absolute;
+  border-radius: 50%;
+}
