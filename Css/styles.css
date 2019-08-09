@@ -24,6 +24,7 @@
   margin: 0 auto 0 auto;
   text-align: center;
 }
+
 .bottom-p {
   margin: 0 auto 30px auto;
 }
@@ -82,23 +83,6 @@
   bottom: 300px;
 }
 
-.btn {
-  background: #605052;
-  -webkit-border-radius: 60;
-  -moz-border-radius: 60;
-  border-radius: 60px;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: grey;
-  text-decoration: none;
-}
-
 .copywright {
   color: grey;
   font-family: 'Montserrat', sans-serif;
@@ -125,5 +109,23 @@
 }
 
 .fa:hover {
-  color: #605052;
+  color: #3498db;
+}
+
+.btn {
+  background: #605052;
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  -webkit-box-shadow: 0 4px 3px #666666;
+  border-radius: 60px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: grey;
+  text-decoration: none;
 }

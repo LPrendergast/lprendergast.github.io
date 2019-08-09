@@ -7,6 +7,9 @@ body {
 
 hr {
   border-style: none;
+  border-top-style: dashed;
+  border-width: 8px;
+  width: 10%;
   border-top-style: dotted;
   border-width: 12px;
   width: 6%;
