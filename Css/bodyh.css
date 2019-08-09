@@ -7,24 +7,23 @@ body {
 
 hr {
   border-style: none;
-  border-top-style: dotted;
-  border-width: 10px;
-  width: 6%;
-  padding-bottom: 20px;
+  border-top-style: dashed;
+  border-width: 8px;
+  width: 10%;
+  padding: 20px auto 20px auto;
   color: #605052;
 }
 
 h1 {
   font-size: 563%;
-  color: white;
-  margin: 150px auto 0 auto;
+  margin: 40vh auto 0 auto;
   font-family: 'Montserrat', serif;
   text-align: center;
 }
 
 h2 {
   margin-top: 0;
-  color: grey;
+  color: #624562;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
@@ -35,7 +34,7 @@ h2 {
 h3 {
   margin-top: 0;
   font-family: 'Montserrat', sans-serif;
-  color: black;
+  color: #624562;
 }
 
 a {

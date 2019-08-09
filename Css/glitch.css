@@ -1,3 +1,11 @@
+/*
+References
+https://www.youtube.com/watch?v=HpOi_tSMAoY
+https://www.youtube.com/watch?v=iHg_ilGutzM
+https://www.youtube.com/watch?v=DIUtsLmFdIQ
+https://www.youtube.com/watch?v=Gdgoe5gzg_M
+https://www.youtube.com/watch?v=Og9YuYAI7kA
+*/
 .middle {
   position: relative;
   top: 50%;
@@ -6,7 +14,7 @@
 }
 
 .text {
-  color: #fff;
+  color: lightgrey;
   font-size: 60px;
   text-align: center;
   letter-spacing: 12px;
